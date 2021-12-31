@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(180, 226, 218);
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    width: 800px;
+    margin: auto;
+}
