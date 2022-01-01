@@ -1,11 +1,34 @@
-body {
-    background-color: rgb(180, 226, 218);
-    font-family: 'Times New Roman', Times, serif
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h1 {
-    width: 800px;
-    text-align: center;
-    font-size:8vw;
-    padding: 20px;
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: lightblue;
+}
+.two {
+    background: lightgreen;
+}
+.three {
+    background: lightpink;
+}
+.four {
+    background: lightyellow;
 }
